@@ -21,11 +21,12 @@
 # definition file).
 #
 
-# Inherit Redmi Note 7 Carbon device config
+# Inherit Redmi Note 7 Omni device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_lavender.mk
+    $(LOCAL_DIR)/device.mk \
+    $(LOCAL_DIR)/omni_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_lavender-eng \
-    carbon_lavender-userdebug \
-    carbon_lavender-user
+    omni_lavender-eng \
+    omni_lavender-userdebug \
+    omni_lavender-user
